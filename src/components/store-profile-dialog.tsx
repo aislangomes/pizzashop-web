@@ -8,7 +8,7 @@ import {
   getManagedRestaurant,
   GetManagedRestaurantResponse,
 } from '@/api/get-managed-restaurant'
-import { updateProfile } from '@/api/upadte-profile'
+import { updateProfile } from '@/api/update-profile'
 
 import { Button } from './ui/button'
 import {
@@ -133,7 +133,7 @@ export function StoreProfileDialog() {
             </Button>
           </DialogClose>
           <Button type="submit" variant="success" disabled={isSubmitting}>
-            Salver
+            Salvar
           </Button>
         </DialogFooter>
       </form>

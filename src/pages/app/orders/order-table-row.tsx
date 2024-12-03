@@ -5,7 +5,7 @@ import { ArrowRight, Search, X } from 'lucide-react'
 import { useState } from 'react'
 
 import { approveOrder } from '@/api/approve-order'
-import { cancelOrder } from '@/api/cancel-orders'
+import { cancelOrder } from '@/api/cancel-order'
 import { deliverOrder } from '@/api/deliver-order'
 import { dispatchOrder } from '@/api/dispatch-order'
 import { GetOrdersResponse } from '@/api/get-orders'
